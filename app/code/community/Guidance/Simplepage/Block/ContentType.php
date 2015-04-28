@@ -9,7 +9,7 @@
 /**
  * Class Guidance_Simplepage_Block_ContentType
  *
- * @method float getContentType()
+ * @method string getContentType()
  * @method Guidance_Simplepage_Block_ContentType setContentType(string $value)
  */
 class Guidance_Simplepage_Block_ContentType extends Mage_Core_Block_Abstract
