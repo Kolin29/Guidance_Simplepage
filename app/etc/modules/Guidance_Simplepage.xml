@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Guidance_Simplepage>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Page/>
+            </depends>
+        </Guidance_Simplepage>
+    </modules>
+</config>

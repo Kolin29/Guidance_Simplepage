@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <simple_page translate="label">
+        <label>All Simple Pages</label>
+        <reference name="root">
+            <action method="setTemplate"><template>guidance_simplepage/simple_page.phtml</template></action>
+            <action method="setIsHandle"><applied>1</applied></action>
+            <action method="setLayoutCode"><name>simple_page</name></action>
+        </reference>
+
+        <reference name="content">
+            <!-- Add block to customize content type of response -->
+            <block type="guidance_simplepage/contentType" name="guidance_simplepage.content_type"/>
+            <!-- Disable msrp tooltip -->
+            <action method="unsetChild"><name>product.tooltip</name></action>
+        </reference>
+
+        <!-- Set skip render tag to prevent FPC placeholders on cache miss -->
+        <reference name="messages">
+            <action method="setSkipRenderTag"><value>true</value></action>
+        </reference>
+
+        <!-- Set skip render tag to prevent FPC placeholders on cache miss -->
+        <reference name="global_messages">
+            <action method="setSkipRenderTag"><value>true</value></action>
+        </reference>
+
+        <!-- Set wrapper to invisible, otherwise it will add a div with class "std" to the response -->
+        <reference name="cms.wrapper">
+            <action method="setMayBeInvisible"><value>true</value></action>
+        </reference>
+    </simple_page>
+</layout>

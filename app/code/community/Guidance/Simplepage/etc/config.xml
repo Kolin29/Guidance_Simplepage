@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Guidance_Simplepage>
+            <version>1</version>
+        </Guidance_Simplepage>
+    </modules>
+    <global>
+        <blocks>
+            <guidance_simplepage>
+                <class>Guidance_Simplepage_Block</class>
+            </guidance_simplepage>
+        </blocks>
+        <helpers>
+            <guidance_simplepage>
+                <class>Guidance_Simplepage_Helper</class>
+            </guidance_simplepage>
+        </helpers>
+        <page>
+            <layouts>
+                <plain_text module="guidance_simplepage" translate="label">
+                    <label>Simple Page</label>
+                    <template>guidance_simplepage/simple_page.phtml</template>
+                    <layout_handle>simple_page</layout_handle>
+                </plain_text>
+            </layouts>
+        </page>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <guidance_simplepage>
+                    <file>guidance_simplepage.xml</file>
+                </guidance_simplepage>
+            </updates>
+        </layout>
+    </frontend>
+</config>
