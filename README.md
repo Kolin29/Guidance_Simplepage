@@ -1,6 +1,6 @@
 # Guidance_Simplepage
 
-This module adds a new page layout called "Simple Page" which can be used by content editors to create CMS pages with complete control over the output.
+A Magento module which adds a new page layout called "Simple Page" which can be used by content editors to create CMS pages with complete control over the output.
 
 ## Example uses
 
@@ -25,4 +25,4 @@ When you desire the content-type to be set to something other than "text/html" y
 
 ## Notes
 
-Developed for Magento Enterprise Edition 1.14.2.0.  It is quite basic so it should work for past versions of community and enterprise.  Please report an issue if you experience a problem.
+Developed on Magento Enterprise Edition 1.14.2.0 but it is quite basic so it should work for all versions of community and enterprise.  Please report an issue if you experience a problem.
