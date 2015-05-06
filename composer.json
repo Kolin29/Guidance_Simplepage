@@ -1,0 +1,15 @@
+{
+    "name": "guidance/guidance_simplepage",
+    "type": "magento-module",
+    "license":"Apache-2.0",
+    "description":"A Magento module which adds a new page layout called "Simple Page" which can be used by content editors to create CMS pages with complete control over the output.",
+    "authors":[
+        {
+            "name":"Gordon Knoppe",
+            "email":"gknop@guidance.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
