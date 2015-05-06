@@ -1,3 +1,5 @@
 app/code/community/Guidance/Simplepage app/code/community/Guidance/Simplepage
+app/design/frontend/base/default/layout/guidance_simplepage.xml app/design/frontend/base/default/layout/guidance_simplepage.xml
+app/design/frontend/base/default/template/guidance_simplepage app/design/frontend/base/default/template/guidance_simplepage
 app/etc/Guidance_Simplepage.xml app/etc/Guidance_Simplepage.xml
 README.md app/code/community/Guidance/Simplepage/README.md
